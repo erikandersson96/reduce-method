@@ -6,7 +6,22 @@
 
 
 // Summing an array of numbers:
+const nums = [0, 1, 2, 3, 4]; // starts at 0 as the first integer 
+let sum = nums.reduce((acc, curr) => acc + curr, 0); // starts at 10 as the first integer 
+console.log(sum);  
 
+// Simplified explination: 
+
+// const nums = [0, 1, 2, 3, 4]; // starts at 0 as the first integer
+// let sum = nums.reduce((acc, curr) => {
+//   console.log(
+//     "Accumulator", acc, 
+//     "Current Value", curr, 
+//     "Total", acc + curr
+//   ); 
+//   return acc + curr; 
+// }, 10); // starts at 10 as the first integer 
+// console.log(sum);  
 
 const teamMembers = [
   {
